@@ -16,5 +16,17 @@ class Practice {
         var longValue:Long = 1234L
         var intValueByHex:Int = 0x1af
         var intValueByBin:Int = 0b10110110 //코틀린은 8진수 표기는 하지않는다.
+        var doubleValue:Double = 123.5
+        var doubleValueWithExp:Double = 123.5e10
+        var floatValue:Float = 123.5f //float는 다음과 같이 f를 넣어준다.
+        var charValue:Char = 'a' //UTF-16 BE를 따르고 있어서 한 글자당 16bit를 가짐.
+        var charKoreanValue:Char = '가' //UTF-16
+        var booleanValue:Boolean = true
+        var stringValue = "one line string test"
+        var multiLineStringValue = """
+            string
+            test
+        """.trimIndent()
     }
+
 }
