@@ -9,7 +9,7 @@ toDouble()
 toChar()
 
  */
-class Practice2 {
+class Practice2 (var name:String, val birthYear:Int){
     fun main(){
         var a: Int = 30
         var b: Long = a.toLong() //명시적 형변환. 암시적 형변환을 막는다.
