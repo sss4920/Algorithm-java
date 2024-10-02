@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.StringTokenizer;
 
 public class BJ10815 {
-	static HashMap<Long, Long> map = new HashMap<>();
+	private static HashMap<Long, Long> map = new HashMap<>();
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		long n = Long.parseLong(br.readLine());
