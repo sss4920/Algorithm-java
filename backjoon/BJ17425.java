@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+// 그냥 전에 했던 것과 같이 똑같이 진행을 하게 되면 100만번 * 테스트케이스 10만번으로 절대 1초안에 끝나지않는다. 다른 방법이 필요.
+// 부분합의 규칙성을 찾아야하고, 찾아보니까 배수에 해당하는 애들은 유사 o(n^1/2)정도로 구하고 dp의 부분합을 사용하여 100만번의 테스트케이스 배열을 만들어주고
+// 계산결과만 디피에 저장해놓고 o(1)로 찾아서 넣기.
 
 public class BJ17425 {
 	static final int MAX = 1_000_001;
